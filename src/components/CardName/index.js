@@ -4,9 +4,15 @@ import img from "../../images/alura_img.svg";
 
 
 export default function CardName() {
+
+    function active(){
+        console.log("opa")
+    }
+    
+
   return `
-        <article class="card-game">
+        <div class="card-game" onclick=${active}>
             <img src=${img}>
-        </article>
+        </div>
     `;
 }
