@@ -1,5 +1,5 @@
-export default function PlayerTitle() {
+export default function PlayerTitle(num) {
     return `
-        <p>Player 1</p>
+        <p>Player ${num}</p>
     `
 }

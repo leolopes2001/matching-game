@@ -1,18 +1,30 @@
 import "./src/styles/settings/colors.css";
 import "./src/styles/generic/reset.css"
 import "./src/styles/elements/base.css";
-import CardName  from "./src/components/CardName";
-import DivAll from "./src/components/DivAll"
+import BoardGame from "./src/objects/BoardGame";
 
-function active(){
-    console.log("opa")
-}
+
+
 
 //Toda variavel que começa com $ guarda uma referencia da tela
 const $root = document.querySelector("#root");
+$root.insertAdjacentHTML("beforeend", BoardGame(30)) 
 
-const $htmlCardGame = DivAll()
 
-console.log($htmlCardGame)
 
-$root.insertAdjacentHTML("beforeend", $htmlCardGame) 
+
+
+
+
+
+
+
+
+let all_cards = document.querySelectorAll(".card-game")
+document.addEventListener("click", (e) => {
+   let my_img = e.target
+    my_img.classList.toggle("active")
+})
+all_cards.forEach(card => {
+    card.addEventListener("click", card_toggle)
+})
