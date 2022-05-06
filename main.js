@@ -8,7 +8,7 @@ import BoardGame from "./src/objects/BoardGame";
 
 //Toda variavel que começa com $ guarda uma referencia da tela
 const $root = document.querySelector("#root");
-$root.insertAdjacentHTML("beforeend", BoardGame(30)) 
+$root.insertAdjacentHTML("beforeend", BoardGame(6) )
 
 
 
