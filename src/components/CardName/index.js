@@ -5,7 +5,7 @@ import img from "../../images/alura_img.svg";
 
 export default function CardName() {
 
-  return `
+  return /*html*/ `
         <div class="card-game">
             <img src="${img}"/>
         </div>
