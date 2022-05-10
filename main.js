@@ -14,15 +14,8 @@ $root.insertAdjacentHTML(
   "beforeend",
   `
   ${ScoreBoard()}
-  ${BoardGame(2)}
+  ${BoardGame(6)}
 `
 );
 
-let all_cards = document.querySelectorAll(".card-game");
-document.addEventListener("click", (e) => {
-  let my_img = e.target;
-  my_img.classList.toggle("active");
-});
-all_cards.forEach((card) => {
-  card.addEventListener("click", card_toggle);
-});
+

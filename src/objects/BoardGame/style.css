@@ -2,10 +2,8 @@
     display: flex;
     flex-wrap: wrap;    
     align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
-
-    
+    justify-content: center;
+    gap: 15px;
     perspective: 400px;
     
 }                           
