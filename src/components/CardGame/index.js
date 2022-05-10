@@ -1,13 +1,28 @@
 //JSX
 import "./style.css";
-import img from "../../images/alura_img.svg";
+import imgAlura from "../../images/alura_img.svg";
+import imgJs from "../../images/js_card.svg";
+import imgCss from "../../images/css_card.svg";
+import imgHtml from "../../images/html_card.svg";
 
+export default function CardGame(imgType, alt = "Logo Alura") {
+  let img = imgAlura;
 
-export default function CardGame() {
+  if (imgType === "js") {
+    img = imgJs;
+  }
+
+  if (imgType === "css") {
+    img = imgCss;
+  }
+
+  if (imgType === "html") {
+    img = imgHtml;
+  }
 
   return /*html*/ `
         <div class="card-game">
-            <img src="${img}"/>
+            <img src="${img}" alt="${alt}"/>
         </div>
     `;
 }
