@@ -1,10 +1,10 @@
 <svg width="130" height="160" viewBox="0 0 130 160" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect x="2" y="2" width="126" height="156" fill="#F25A70" stroke="#FFFCEE" stroke-width="4"/>
 <rect x="25" y="40" width="80" height="80" fill="url(#pattern0)"/>
-<rect y="156" width="4" height="4" fill="#7C5E99"/>
-<rect width="4" height="4" fill="#7C5E99"/>
-<rect x="126" width="4" height="4" fill="#7C5E99"/>
-<rect x="126" y="156" width="4" height="4" fill="#7C5E99"/>
+<rect y="156" width="4" height="4" fill="#FFFCEE"/>
+<rect width="4" height="4" fill="#FFFCEE"/>
+<rect x="126" width="4" height="4" fill="#FFFCEE"/>
+<rect x="126" y="156" width="4" height="4" fill="#FFFCEE"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_10_0" transform="scale(0.00454545)"/>
