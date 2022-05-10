@@ -6,7 +6,7 @@ export default function CardFrontBack(){
     return /*html*/`
         <article class="card-front-back">
             ${CardGame()}
-            ${CardGame()}
+            ${CardGame("js", "Logo Js")}
         </article>
     
     `
