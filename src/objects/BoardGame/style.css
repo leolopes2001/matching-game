@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
+
     
+    perspective: 400px;
     
 }                           

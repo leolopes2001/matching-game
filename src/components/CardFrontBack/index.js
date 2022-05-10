@@ -1,13 +1,19 @@
-import CardGame from "../CardGame"
+import CardGame from "../CardGame";
+import "./style.css";
 
-export default function CardFrontBack(){
-
-
-    return /*html*/`
+export default function CardFrontBack() {
+  return /*html*/ `
         <article class="card-front-back">
-            ${CardGame()}
-            ${CardGame("js", "Logo Js")}
+        
+            <div class="card -front">
+                ${CardGame()}
+            </div>
+
+            <div class="card -back">
+                ${CardGame("js", "Logo Js")}
+            </div>
+            
         </article>
     
-    `
+    `;
 }
